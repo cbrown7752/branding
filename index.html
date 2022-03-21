@@ -54,6 +54,35 @@
 .btn:hover {
   background-color: RoyalBlue;
 }
+	    
+	   
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4e4eff;
+}
 </style>
 
   </head>
@@ -62,7 +91,7 @@
     <header>
       <div class="inner">
         <a href="https://branding.echobot.xyz/">
-          <h1>Echo Development Branding</h1>
+          <h1 id="home">Echo Development Branding</h1>
         </a>
         <h2></h2>
         
@@ -70,6 +99,11 @@
         
       </div>
     </header>
+	  <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#logos">Logos</a></li>
+  <li><a href="#app-store">App Store</a></li>
+</ul>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
